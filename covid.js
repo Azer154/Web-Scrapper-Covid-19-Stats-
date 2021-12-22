@@ -1,8 +1,8 @@
 console.log('Processing...')
 const puppeteer = require('puppeteer')
-const moment = require('moment')
+
 async function scrapeProduct(url) {
-    const st = performance.now()
+
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
     await page.setDefaultNavigationTimeout(60000);
@@ -43,8 +43,8 @@ async function scrapeProduct(url) {
 
     }
     console.table(table)
-let et = performance.now()
- et = moment(st - et).seconds()
+
+
 console.log(`${et} seconds taken`)
 
 
