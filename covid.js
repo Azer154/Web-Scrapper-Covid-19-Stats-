@@ -45,7 +45,7 @@ async function scrapeProduct(url) {
     console.table(table)
 
 
-console.log(`${et} seconds taken`)
+
 
 
     await browser.close()
