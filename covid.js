@@ -51,3 +51,4 @@ async function scrapeProduct(url) {
     await browser.close()
 }
 scrapeProduct('https://www.worldometers.info/coronavirus/')
+//Entry from AMAL (10-D Boys)
